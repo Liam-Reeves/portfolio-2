@@ -1,18 +1,54 @@
 body{
-    background-image: url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-font-family: "DejaVu Serif";
+    background-image: url("https://images.unsplash.com/photo-1624823183493-ed5832f48f18?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
     padding-left: 4px;
-    padding-top: 20px;
+    padding-top: 2px;
     font-size: x-large;
  }
-.headings{
+.heading{
     text-align: center;
+    font-stretch: expanded;
+    font-size: x-large;
+    color: #dcdc1d;
 
 }
+.heading:hover{
+
+    color:navajowhite;
+
+}
+
+
+
+
 .link{
         text-decoration: none;
-    padding-top: 50px;
+    padding-top: 5px;
+       padding-left: 25px;
 }
 .tech{
     font-stretch:expanded;
+}
+a{
+    text-decoration: none;
+    color: #dcdc1d  ;
+    text-align: center;
+    font-family: Pothana2000;
+    font-size: x-large;
+
+}
+button{
+    background-color:#dcdc1d ;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+button:hover{
+    background-color:black;
+    color:#dcdc1d ;
+    font-family: Poppins;
+}
+a:hover{
+        color: navajowhite;
 }

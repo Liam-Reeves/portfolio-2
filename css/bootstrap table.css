@@ -1,0 +1,14 @@
+body{
+    border-bottom: limegreen 2px solid;
+    border-collapse: collapse
+}
+
+table{
+    border: green 2px solid;
+border-radius: 25px;
+
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
